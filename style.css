@@ -1,21 +1,31 @@
-h1 {
+.Title {
 
-color:rgb(156, 64, 64);
+color:rgb(0, 0, 0);
 }
 
 *{
-/* margin: 70px;
-padding: 60px; */
+margin: 0px;
+padding: 0px;
 box-sizing: border-box;
-font-family:"Goudy";
+font-family:"Calisto MT";
 }
 
 nav {
 display: flex;
 width:100%;
 justify-content:space-between;
-padding: 30px;
+padding: 0px;
+background: rgb(231, 215, 113);
+margin: 0px;
+}
 
+.LargeSample {
+    padding: 20px;
+    font-size: 50px;
+}
+
+.SAMMP {
+    font-size: 40px;
 }
 
 
@@ -25,19 +35,64 @@ ul {
 }
 
 li {
+    font-size: 70px;
     margin-right: 25px;
 }
 
 main {
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 footer {
     padding-left: 30px;
 }
 
-.Title{
-    margin-left: 20px;
-    margin-top: 20px;
+li {
+    margin-top: 30px;
+padding-right: 10px;
+    font-size: 40px;
+}
+
+.Title {
+    margin-left: 60px;
+    margin-top: 90px;
     font-size: 100px;
+}
+
+img {
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+div, h1, h2, h3, h4{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+div, h4{
+    margin-top:0px;
+    margin-bottom:0px;
+
+}
+
+.Return {
+    font-size: 30px;
+    font-family: "Arial";
+}
+
+.IMAGES {
+   width: 250px;
+    padding-left: 10px;
+}
+
+h1 {
+    padding-bottom: 0px;
+    font-size: 0px;
+    margin-left: 0px;
+}
+
+.LIBRARY {
+    padding-bottom: 60px;
+    font-size: 50px;
+    margin-left: 20px;
 }
